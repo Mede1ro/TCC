@@ -1,9 +1,10 @@
 var map = L.map('map').setView([-22.77483256773132, -42.082277725096766], 10);
 
-    var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
+    var googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+      maxZoom: 20,
+      subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+    });
+    googleStreets.addTo(map);
 
     // Conflitos em Buzios
     var marker = L.marker([-22.74884753005497, -41.95635818360315]).addTo(map);
@@ -37,6 +38,6 @@ var map = L.map('map').setView([-22.77483256773132, -42.082277725096766], 10);
 
     var marker = L.marker([-22.877920210547412, -42.32451740467678]).addTo(map);
     marker.bindPopup("<b>A urbanização da orla da laguna de Araruama em Araruama e seus impactos</b>.").openPopup();
-    
+
     var marker = L.marker([-22.88280298731239, -42.1604148444337]).addTo(map);
     marker.bindPopup("<b>A emissão de esgoto in natura na laguna de Araruama em diversos pontos</b>.<br><a href='pages/contato.php'>Ver mais</a>").openPopup();
