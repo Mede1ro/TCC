@@ -1,9 +1,29 @@
 var map = L.map('map').setView([-22.77483256773132, -42.082277725096766], 10);
+
+    OpenStreetMap = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      });
+OpenStreetMap.addTo(map);
+
+googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+        maxZoom: 19,
+        subdomains:['mt0','mt1','mt2','mt3']
+});
+
     googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
-        maxZoom: 20,
+        maxZoom: 19,
         subdomains:['mt0','mt1','mt2','mt3']
 }); 
 googleStreets.addTo(map);
+
+var baseLayers = {
+    "OpenStreetMap": OpenStreetMap,
+    "Google Satellite": googleSat,
+    "Google Maps": googleStreets
+};
+
+L.control.layers(baseLayers).addTo(map);
 
 // Conflitos em Buzios
 var marker = L.marker([-22.74884753005497, -41.95635818360315]).addTo(map);
