@@ -56,10 +56,10 @@ marker.bindPopup("<b>Quiosques de São Pedro: a urbanização da orla da laguna 
 // Conflitos em Cabo Frio
 
 var marker = L.marker([-22.86436041745567, -42.003151612015145], {icon: greenIcon}).addTo(map);
-marker.bindPopup("<b>A instalação do empreendimento imobiliário Marina do Peró, da empresa VIVERDE em Cabo Frio. O empreendimento tem sido acusado de supressão de manguezal e vegetação</b>.").openPopup();
+marker.bindPopup("<b>A instalação do empreendimento imobiliário Marina do Peró, da empresa VIVERDE em Cabo Frio. O empreendimento tem sido acusado de supressão de manguezal e vegetação</b><br><a href='p/cf1.php'>Ver mais</a>.").openPopup();
 
 var marker = L.marker([-22.872930570031375, -42.03569801111262], {icon: greenIcon}).addTo(map);
-marker.bindPopup("<b>A expansão do estacionamento do Shopping Park Lagos tem gerado conflitos com as comunidades do entorno</b>.").openPopup();
+marker.bindPopup("<b>A expansão do estacionamento do Shopping Park Lagos tem gerado conflitos com as comunidades do entorno</b>.<br><a href='p/cf2.php'>Ver mais</a>").openPopup();
 
 var marker = L.marker([-22.73966606550855, -42.0641429968583], {icon: greenIcon}).addTo(map);
 marker.bindPopup("<b>A invisibilidade da comunidade dos remanescentes do Quilombo Botafogo em Cabo Frio</b>.").openPopup();
@@ -67,12 +67,12 @@ marker.bindPopup("<b>A invisibilidade da comunidade dos remanescentes do Quilomb
 // Conflitos em Arraial do Cabo
 
 var marker = L.marker([-22.97054597934171, -42.031247214308], {icon: greenIcon}).addTo(map);
-marker.bindPopup("<b>O conflito entre turismo e pesca na Reserva Extrativista de Arraial do Cabo</b>.").openPopup();
+marker.bindPopup("<b>O conflito entre turismo e pesca na Reserva Extrativista de Arraial do Cabo</b><br><a href='p/ac1.php'>Ver mais</a>.").openPopup();
 
 // Conflitos em Araruama
 
 var marker = L.marker([-22.877920210547412, -42.32451740467678], {icon: greenIcon}).addTo(map);
-marker.bindPopup("<b>A urbanização da orla da laguna de Araruama em Araruama e seus impactos</b>.").openPopup();
+marker.bindPopup("<b>A urbanização da orla da laguna de Araruama em Araruama e seus impactos</b>.<br><a href='p/ar1.php'>Ver Mais</a>").openPopup();
     
 var marker = L.marker([-22.88280298731239, -42.1604148444337], {icon: greenIcon}).addTo(map);
-marker.bindPopup("<b>A emissão de esgoto in natura na laguna de Araruama em diversos pontos</b>.<br><a href='pages/contato.php'>Ver mais</a>").openPopup();
+marker.bindPopup("<b>A emissão de esgoto in natura na laguna de Araruama em diversos pontos</b>.").openPopup();
