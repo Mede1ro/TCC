@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
-    <title>Conflito</title>
+    <title>A instalação do empreendimento imobiliário Marina do Peró,<br> da empresa VIVERDE em Cabo Frio</title>
 </head>
 
 <body>
@@ -19,13 +19,13 @@
                 <a class="cabecalho-menu-item-links" href="../index.php">Inicio</a>
             </li>
             <li class="cabecalho-menu-item">
-                <a class="cabecalho-menu-item-links" href="atualizacoes.php">Atualizações</a>
+                <a class="cabecalho-menu-item-links" href="../pages/atualizacoes.php">Atualizações</a>
             </li>
             <li class="cabecalho-menu-item">
-                <a class="cabecalho-menu-item-links" href="sobre.php">Sobre</a>
+                <a class="cabecalho-menu-item-links" href="../pages/sobre.php">Sobre</a>
             </li>
             <li class="cabecalho-menu-item">
-                <a class="cabecalho-menu-item-links" href="contato.php">Contato</a>
+                <a class="cabecalho-menu-item-links" href="../pages/contato.php">Contato</a>
             </li>
         </nav>
     </header>
