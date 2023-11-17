@@ -3,7 +3,7 @@
 $host = 'localhost';
 $usuario = 'root';
 $senha = '';
-$banco = '';
+$banco = 'conflitos_ambientais';
 
 $conexao = new mysqli($host, $usuario, $senha, $banco);
 

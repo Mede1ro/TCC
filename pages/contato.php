@@ -2,13 +2,13 @@
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="shortcut icon" href="../assets/logo.svg" type="image/x-icon">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
   <title>Contato</title>
 </head>
 
@@ -65,10 +65,17 @@
       <label for="mensagem">Descrição do Conflito Ambiental:</label>
       <textarea name="mensagem" id="mensagem" cols="20" rows="10"></textarea>
 
-      <span class="fotos">Anexos:</span>
-      <input type="file" name="upload" id="upload" multiple>
-      <label class="upload" for="upload">enviar arquivos</label>
-
+      <div class="container-upload">
+        <label for="upload-file" id="upload-area">
+          <input type="file" accept="image/*" name="upload" id="upload-file" style="display: none;" multiple>
+          <div id="preview-container">
+            <img class="nuvem" src="../assets/upload.svg">
+            <p>Arraste e solte ou clique aqui <br> para fazer upload da imagem</p>
+            <span>Carregue qualquer imagem</span>
+            <div id="preview-image"></div>
+          </div>
+        </label>
+      </div>
 
       <H1>reCAPTCHA</H1>
 
