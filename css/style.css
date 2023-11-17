@@ -151,7 +151,7 @@ body {
 }
 
 .cabecalho-menu-item-links:hover {
-  color: #369530;
+  color: rgb(168, 22, 3);
 }
 
 .cabecalho-menu-item-links:hover::after {
