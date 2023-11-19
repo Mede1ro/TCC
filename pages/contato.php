@@ -33,7 +33,7 @@
   </header>
 
   <main class="container-contato">
-    <h1 class="conteudo-contato-titulo">Contato</h1>
+    <h1 class="conteudo-contato-titulo"><img src="../assets/mao.png"> Contato</h1>
 
     <div class="conteudo-contato-texto">
       <p>
