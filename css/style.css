@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--fontFamily);
   overflow-x: hidden;
 }
 
@@ -20,6 +20,7 @@ body {
   justify-content: center;
   height: 80px;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .cabecalho-imagem {
@@ -29,9 +30,9 @@ body {
   justify-content: center;
   margin-left: 60px;
   display: flex;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
-  color: #2e2828;
+  color: var(--black-color);
   font-weight: bold;
 }
 
@@ -58,8 +59,8 @@ body {
   position: relative;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 400;
-  color: #2e2828;
+  font-weight: 600;
+  color: var(--black-color);
   padding: 0 5px;
   transition: 0.3s ease;
   padding-bottom: 1px;
@@ -79,7 +80,7 @@ body {
 }
 
 .cabecalho-menu-item-links:hover {
-  color: rgb(168, 22, 3);
+  color: #5aa455;
 }
 
 .cabecalho-menu-item-links:hover::after {
@@ -108,7 +109,7 @@ body {
   font-size: 35px;
   font-family: var(--fontFamily);
   font-weight: 300;
-  color: #2e2828;
+  color: var(--black-color);
 }
 
 .conteudo-inicio span {
@@ -190,7 +191,7 @@ body {
   border: 1px solid #a9aaac;
   outline: none;
   transition: 0.23s;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--fontFamily);
   margin-bottom: 30px;
 }
 
@@ -368,11 +369,12 @@ body {
 
 /* ☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷ LOGIN ☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷ */
 
+
 .container-login {
   margin: auto;
   width: 100vw;
   height: 100vh;
-  background-image: url(../Assets/BgTucano.png);
+  background-image: url(../assets/bgtucano.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -381,7 +383,7 @@ body {
 .container-login-background {
   width: 100vw;
   height: 100vh;
-  background-image: url(../Assets/BgTigre.png);
+  background-image: url(../assets/bgtigre.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -480,33 +482,64 @@ input[type="submit"] {
   margin-top: 30px;
 }
 
-/* //////////////////////////////////////////// */
-.conteudo-sobre {
+/* /////////////////////SOBRE/////////////////////// */
+.container-sobre {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #Fff;
+  width: 100vw;
+  height: auto;
+  text-align: center;
 }
 
-.conteudo-sobre-background img {
-  width: 1200px;
-  height: auto;
+.conteudo-sobre-bg {
+  width: 100%;
+  height: 500px;
+}
+
+.conteudo-sobre-bg img {
+  width: 930px;
+  height: 500px;
+  border: none;
+}
+
+.conteudo-sobre-bg h1 {
   position: relative;
-
+  top: -320px;
+  font-size: 75px;
+  color: #2e2828;
+  font-family: var(--fontTitulos);
+  letter-spacing: 2px;
 }
 
-.conteudo-sobre h1 {
-  position: absolute;
-  margin-top: -130px;
-  text-transform: uppercase;
-}
-
-.conteudo-sobre p {
-  position: absolute;
-  width: 650px;
-  height: auto;
-  margin-top: 100px;
+.conteudo-sobre-texto {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
   text-align: justify;
+  margin-left: 275px;
+  margin-right: 275px;
+  color: #303030;
+}
+
+.conteudo-sobre-texto h1 {
+  font-size: 25px;
+  margin-top: 105px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #2e2828;
+}
+
+.conteudo-sobre-texto  .leaf {
+  width: 16px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.conteudo-sobre-texto h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 
