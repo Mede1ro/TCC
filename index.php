@@ -38,6 +38,8 @@
       <h1>Mapa dos Conflitos Ambientais na <span>Região do Lagos</span></h1>
       <div id="map"></div>
 
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+
     </div>
     
   </main>

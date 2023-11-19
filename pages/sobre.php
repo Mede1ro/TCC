@@ -62,6 +62,14 @@
         <h3>Agradecemos por se juntar a nós nesta jornada de descoberta e conscientização.</h3>
       </div>
     </div>
+
+    <div class="conteudo-sobre-equipe">
+      <div class="conteudo-sobre-titulo">
+        <img class="leaf" src="../assets/leaf.svg">Membros da nossa equipe
+      </div>
+    </div>
+
+
   </main>
 
   <footer class="rodape">

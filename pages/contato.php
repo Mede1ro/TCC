@@ -33,7 +33,7 @@
   </header>
 
   <main class="container-contato">
-    <h1 class="conteudo-contato-titulo"><img src="../assets/mao.png"> Contato</h1>
+    <h1 class="conteudo-contato-titulo"><img src="../assets/contato/mao.png"> Contato</h1>
 
     <div class="conteudo-contato-texto">
       <p>
@@ -69,7 +69,7 @@
         <label for="upload-file" id="upload-area">
           <input type="file" accept="image/*" name="upload" id="upload-file" style="display: none;" multiple>
           <div id="preview-container">
-            <img class="nuvem" src="../assets/upload.svg">
+            <img class="nuvem" src="../assets/contato/upload.svg">
             <p>Arraste e solte ou clique aqui <br> para fazer upload da imagem</p>
             <span>Carregue qualquer imagem</span>
             <div id="preview-image"></div>

@@ -13,6 +13,60 @@ body {
   overflow-x: hidden;
 }
 
+/* Estilo para navegadores baseados em WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+  /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  /* Cor de fundo da barra de rolagem */
+  border-radius: 10px;
+  /* Borda arredondada */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4baf47;
+  /* Cor principal da barra de rolagem (verde, por exemplo) */
+  border-radius: 10px;
+  /* Borda arredondada */
+}
+
+/* Estilo para navegadores baseados em Firefox */
+/* Note que o Firefox não suporta a estilização direta da barra de rolagem, então usaremos uma solução alternativa com um contêiner */
+.scrollbar {
+  width: 8px;
+  height: 100%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #4baf47;
+  border-radius: 10px;
+}
+
+/* Estilo para navegadores baseados em IE e Edge */
+/* Edge suporta o pseudo-elemento ::-ms-scrollbar, enquanto o IE requer uma abordagem diferente usando -ms-overflow-style */
+body {
+  scrollbar-color: #4baf47 #f0f0f0;
+  /* Cor da thumb e cor de fundo da barra de rolagem, respectivamente */
+  scrollbar-width: thin;
+  /* Largura da barra de rolagem */
+  -ms-overflow-style: none;
+  /* Remover a barra de rolagem padrão do IE */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4baf47;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+}
+
 .cabecalho {
   width: 100vw;
   display: flex;
@@ -139,12 +193,13 @@ body {
   margin-top: 60px;
   color: var(--colorTitulos);
   text-transform: uppercase;
+  font-size: 35px;
   letter-spacing: 2px;
   margin-bottom: 30px;
 }
 
 .conteudo-contato-titulo img {
-  width: 25px;
+  width: 28px;
 }
 
 .conteudo-contato-texto {
@@ -227,12 +282,14 @@ body {
   background: #fcfcfe;
   background-position: center;
   background-size: cover;
-  transition: all 300ms;
+  transition: 0.23s;
 }
 
 .nuvem {
   width: 100px;
   margin-top: 25px;
+  opacity: 0.6;
+  transition: 0.23s;
 }
 
 #preview-container span {
@@ -245,6 +302,10 @@ body {
 #preview-container:hover {
   border: 2px dashed #3a8719f6;
   cursor: pointer;
+}
+
+#preview-container:hover .nuvem {
+  opacity: 0.9;
 }
 
 #preview-image {
@@ -490,6 +551,7 @@ input[type="submit"] {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100vw;
   height: auto;
   text-align: center;
@@ -534,10 +596,10 @@ input[type="submit"] {
   color: #2e2828;
 }
 
-.conteudo-sobre-texto  .leaf {
-  width: 16px;
+.leaf {
+  width: 14px;
   height: auto;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .conteudo-sobre-texto h2 {
@@ -545,6 +607,19 @@ input[type="submit"] {
   margin-bottom: 10px;
 }
 
+.conteudo-sobre-equipe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conteudo-sobre-titulo {
+  font-size: 16px;
+  color: var(--colorTitulos);
+  text-transform: uppercase;
+  font-weight: 600;
+}
 
 /* ================================conflitos============================= */
 
