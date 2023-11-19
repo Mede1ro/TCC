@@ -20,8 +20,9 @@ iniciarPopUp.addEventListener('click', async (e) => {
 })
 
 fecharPopUp.addEventListener('click', () => {
-    exibirPopUp.style.display = 'none'
-})
+    exibirPopUp.style.display = 'none';
+    formContato.reset(); 
+});
 
 // SCRIPT DO PREVIEW DAS IMAGENS NO UPLOAD
 

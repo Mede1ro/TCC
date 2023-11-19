@@ -178,6 +178,7 @@ body::-webkit-scrollbar-track {
   box-shadow: rgba(0, 0, 0, 0.503) 0px 1px 4px;
 }
 
+
 /* ☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷ CONTATO ☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷ */
 .container-contato {
   display: flex;
@@ -187,7 +188,6 @@ body::-webkit-scrollbar-track {
   width: 100vw;
   height: auto;
 }
-
 
 .conteudo-contato-titulo {
   margin-top: 60px;
@@ -206,7 +206,7 @@ body::-webkit-scrollbar-track {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 822px;
+  width: 820px;
   text-align: justify;
   margin-bottom: 30px;
 }
@@ -220,6 +220,7 @@ body::-webkit-scrollbar-track {
   display: flex;
   flex-direction: column;
   margin: auto;
+  padding: 50px;
 }
 
 .conteudo-contato-formulario label,
@@ -257,7 +258,6 @@ body::-webkit-scrollbar-track {
 .container-upload {
   display: flex;
   align-items: center;
-  /* Adiciona overflow: hidden para evitar que as miniaturas ultrapassem a altura máxima */
 }
 
 .conteudo-contato-formulario input[type="file"] {
@@ -338,7 +338,14 @@ body::-webkit-scrollbar-track {
   border: 1px solid #3a8719f6;
 }
 
-.conteudo-contato-formulario .abrir {
+.envio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 405px;
+}
+
+.abrir {
   margin-top: 40px;
   width: 120px;
   height: 45px;
@@ -354,7 +361,7 @@ body::-webkit-scrollbar-track {
 }
 
 
-.conteudo-contato-formulario .abrir:hover {
+.abrir:hover {
   cursor: pointer;
   background-color: #3a8719b4;
 }
@@ -407,10 +414,12 @@ body::-webkit-scrollbar-track {
 .conteudo-recebido button {
   width: 250px;
   height: 50px;
-  background-color: var(--colorTitulos);
+  background-color: #3a8719f6;
   padding: 1%;
   border: none;
   border-radius: 10px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .conteudo-recebido img {
@@ -597,7 +606,13 @@ input[type="submit"] {
 }
 
 .leaf {
-  width: 14px;
+  width: 16px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.leaf2 {
+  width: 13px;
   height: auto;
   margin-right: 5px;
 }
@@ -605,6 +620,8 @@ input[type="submit"] {
 .conteudo-sobre-texto h2 {
   font-size: 20px;
   margin-bottom: 10px;
+  margin-top: 40px;
+
 }
 
 .conteudo-sobre-equipe {
@@ -612,14 +629,62 @@ input[type="submit"] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #a7bf814a;
+  box-shadow: 6px rgba(0, 0, 0, 0.488);
+  margin-top: 50px;
 }
 
-.conteudo-sobre-titulo {
+.conteudo-sobre-equipe-titulo {
+  margin-top: 50px;
   font-size: 16px;
   color: var(--colorTitulos);
   text-transform: uppercase;
   font-weight: 600;
 }
+
+.conteudo-sobre-equipe-container {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 60px;
+}
+
+.conteudo-sobre-equipe-cards {
+  width: 220px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.perfil {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  object-fit: cover;
+  box-shadow: rgb(101, 103, 105) 0px 20px 30px -10px;
+}
+
+.conteudo-sobre-equipe-cards h1 {
+  font-size: 18px;
+  color: var(--black-color);
+  margin-bottom: 20px;
+}
+
+.conteudo-sobre-equipe-cards p {
+  font-size: 15px;
+  color: var(--colorTitulos);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+
 
 /* ================================conflitos============================= */
 

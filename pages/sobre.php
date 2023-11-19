@@ -46,10 +46,10 @@
 
         <h2>Objetivo do Projeto:</h2>
         <p>O principal propósito deste site é lançar luz sobre os diversos desafios ambientais que afetam a região dos lagos. Buscamos conscientizar o público sobre a complexidade dessas questões, oferecendo informações detalhadas e análises críticas. Nosso foco está na apresentação objetiva dos problemas ambientais, a fim de promover uma compreensão mais profunda e informada sobre os desafios enfrentados na região.</p>
-        <br>
+
         <h2>Contexto:</h2>
         <p>A região dos lagos, conhecida por sua beleza natural e biodiversidade, enfrenta uma série de desafios ambientais que ameaçam não apenas a fauna e flora locais, mas também a qualidade de vida das comunidades que dependem desses ecossistemas. Desde questões relacionadas à poluição da água até o impacto das atividades humanas na área, cada aspecto é explorado com o objetivo de fornecer uma visão abrangente e informada.</p>
-        <br>
+
         <h2>Metodologia:</h2>
         <p>Nosso trabalho se baseia em uma pesquisa aprofundada, combinando fontes científicas, relatos locais e dados coletados in loco. Ao adotar uma abordagem multidisciplinar, buscamos apresentar uma visão holística dos conflitos ambientais na região dos lagos.</p>
         <br>
@@ -59,13 +59,29 @@
         <h2>Participe:</h2>
         <p>Este espaço não é apenas um repositório de informações, mas um convite à participação. Encorajamos a interação, sugestões e compartilhamento de experiências. Juntos, podemos contribuir para um futuro mais sustentável para a região dos lagos.</p>
         <br>
-        <h3>Agradecemos por se juntar a nós nesta jornada de descoberta e conscientização.</h3>
       </div>
     </div>
 
     <div class="conteudo-sobre-equipe">
-      <div class="conteudo-sobre-titulo">
-        <img class="leaf" src="../assets/leaf.svg">Membros da nossa equipe
+      <div class="conteudo-sobre-equipe-titulo">
+        <img class="leaf2" src="../assets/leaf.svg">Membros da nossa equipe
+      </div>
+      <div class="conteudo-sobre-equipe-container">
+        <div class="conteudo-sobre-equipe-cards">
+          <img class="perfil" src="../assets/Omar.jpg" alt="">
+          <h1>Omar S. Nicolau</h1>
+          <p>Criador</p>
+        </div>
+        <div class="conteudo-sobre-equipe-cards">
+          <img class="perfil" src="../assets/Igor.jpg" alt="">
+          <h1>Igor O. Fernandes</h1>
+          <p>Desenvolvedor</p>
+        </div>
+        <div class="conteudo-sobre-equipe-cards">
+          <img class="perfil" src="../assets/Luiz.jpg" alt="">
+          <h1>Luiz Fernando P. Silva</h1>
+          <p>Desenvolvedor</p>
+        </div>
       </div>
     </div>
 

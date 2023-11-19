@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
     <title>A instalação do empreendimento imobiliário Marina do Peró,<br> da empresa VIVERDE em Cabo Frio</title>
 </head>
 
@@ -54,11 +53,10 @@
 
         </div>
 
-        <img class="imagem-conflitos" src="/assets/conflitos/(conflitos)IMOBILIÁRIO MARINA DO PERÓ (CF).png"
-            alt="Viverde Cabo Frio">
-        <img class="imagem-conflitos" src="/assets/conflitos/(conflitos)IMOBILIÁRIO MARINA DO PERÓ(CF).png"
-            alt="Viverde Cabo Frio">
-
+        <div style="display: flex;">
+            <img class="imagem-conflitos" src="/assets/conflitos/(conflitos)IMOBILIÁRIO MARINA DO PERÓ (CF).png" alt="Viverde Cabo Frio">
+            <img class="imagem-conflitos" src="/assets/conflitos/(conflitos)IMOBILIÁRIO MARINA DO PERÓ(CF).png" alt="Viverde Cabo Frio">
+        </div>
 
         <div class="conteudo-conflitos-texto">
 
@@ -99,12 +97,10 @@
                 <br><br>
                 <span>FONTES:</span>
                 <br><br>
-                <a class="links-conflitos"
-                    href="https://transparencia.cabofrio.rj.gov.br/arquivos/1774/PLANO%20DIRETOR__2020_0000001.pdf ">
+                <a class="links-conflitos" href="https://transparencia.cabofrio.rj.gov.br/arquivos/1774/PLANO%20DIRETOR__2020_0000001.pdf ">
                     https://transparencia.cabofrio.rj.gov.br/arquivos/1774/PLANO%20DIRETOR__2020_0000001.pdf </a>
                 <br><br>
-                <a class="links-conflitos"
-                    href="https://www.folhadoslagos.com/geral/vistoria-do-inea-em-empreendimento-na-ogiva-esta-prevista-para-esta/19376/">
+                <a class="links-conflitos" href="https://www.folhadoslagos.com/geral/vistoria-do-inea-em-empreendimento-na-ogiva-esta-prevista-para-esta/19376/">
                     https://www.folhadoslagos.com/geral/vistoria-do-inea-em-empreendimento-na-ogiva-esta-prevista-para-esta/19376/</a>
                 <br><br>
 
@@ -120,11 +116,7 @@
         </div>
 
 
-        <iframe class="video-conflitos" width="800" height="300"
-            src="https://www.facebook.com/31ab66f3-8b35-411a-b1b7-8d46f7b633f1"
-            title="Quiosques demolidos em praia de Cabo Frio" frameborder="0"
-            allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+        <iframe class="video-conflitos" width="800" height="300" src="https://www.facebook.com/31ab66f3-8b35-411a-b1b7-8d46f7b633f1" title="Quiosques demolidos em praia de Cabo Frio" frameborder="0" allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 

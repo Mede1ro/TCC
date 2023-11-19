@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="shortcut icon" href="../assets/logo.svg" type="image/x-icon">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <title>Contato</title>
 </head>
 
@@ -76,24 +77,27 @@
           </div>
         </label>
       </div>
+    </form>
 
-      <H1>reCAPTCHA</H1>
+
+    <div class="envio">
+      <div class="g-recaptcha" data-sitekey="6LfeBBUpAAAAAHyWIqmQrwPDE_yKpMqovUqkzpyB"></div>
 
       <button class="abrir" name="enviar">Enviar</button>
+    </div>
 
-      <div class="container-recebido" id="popup">
-        <div class="conteudo-recebido">
-          <img src="../assets/logo.svg" alt="Logo IFRJ">
-          <h2>Obrigado por compartilhar seu caso de conflito ambiental local!</h2>
-          <p>Vamos revisar suas informações e, se apropriado, publicá-las em nosso site. Entraremos em
-            contato, se necessário, e apreciamos seu apoio na conscientização e ação ambiental, sua
-            contribuição é valiosa.
-          </p>
+    <div class="container-recebido" id="popup">
+      <div class="conteudo-recebido">
+        <img src="../assets/logo.svg" alt="Logo IFRJ">
+        <h2>Obrigado por compartilhar seu caso de conflito ambiental local!</h2>
+        <p>Vamos revisar suas informações e, se apropriado, publicá-las em nosso site. Entraremos em
+          contato, se necessário, e apreciamos seu apoio na conscientização e ação ambiental, sua
+          contribuição é valiosa.
+        </p>
 
-          <button class="fechar">Fechar</button>
-        </div>
+        <button class="fechar">Fechar</button>
       </div>
-    </form>
+    </div>
 
 
   </main>
