@@ -35,22 +35,6 @@
             VIVERDE em Cabo Frio
         </h1>
 
-        <div class="conteudo-conflitos-texto">
-            <p>
-
-                <br><br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam veritatis explicabo consequatur, nihil
-                fugiat laboriosam officia voluptate minima enim repudiandae earum expedita delectus nobis blanditiis
-                nemo similique quasi repellendus. Ex.
-                <br><br>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati ex, dignissimos tenetur, labore
-                dolorum ea eum suscipit eos aperiam qui aut ullam dolores modi recusandae quos maxime commodi harum
-                accusamus!
-                <br><br>
-
-
-            </p>
-
         </div>
 
         <div style="display: flex;">

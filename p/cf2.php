@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
     <title>A expansão do estacionamento do shopping Park Lagos tem gerado conflitos com as comunidades do entorno</title>
 </head>
 
@@ -40,8 +39,7 @@
 
                 <br><br>
                 MPF convoca audiência pública para debater o projeto de ampliação da área de estacionamento do Shopping
-                Park Lagos conforme o seguinte edital: <a
-                    href="https://www.mpf.mp.br/rj/sala-de-imprensa/docs/prm-sao-pedro-da-aldeia/edital-convocacao-audiencia-publica-estacionamento-park-shopping-cabo-frio/view">Edital
+                Park Lagos conforme o seguinte edital: <a href="https://www.mpf.mp.br/rj/sala-de-imprensa/docs/prm-sao-pedro-da-aldeia/edital-convocacao-audiencia-publica-estacionamento-park-shopping-cabo-frio/view">Edital
                     Convocação Audiência Pública Estacionamento Park ... - MPF </a>
 
                 <br><br>
@@ -60,13 +58,11 @@
 
         </div>
 
+        <div style="display: flex;">
+            <img class="imagem-conflitos" src="../assets/conflitos/(conf) A expansão do estacionamento do shopping Park(CF) .png">
 
-        <img class="imagem-conflitos"
-            src="../assets/conflitos/(conf) A expansão do estacionamento do shopping Park(CF) .png">
-
-        <img class="imagem-conflitos"
-            src="../assets/conflitos/(conf) A expansão do estacionamento do shopping Park(CF)2 .png">
-
+            <img class="imagem-conflitos" src="../assets/conflitos/(conf) A expansão do estacionamento do shopping Park(CF)2 .png">
+        </div>
 
         <div class="conteudo-conflitos-texto">
 
@@ -123,33 +119,26 @@
 
                 <span>Fontes:</span>
                 <br><br>
-                <a class="links-conflitos"
-                    href="https://www.mpf.mp.br/rj/sala-de-imprensa/noticias-rj/mpf-convoca-audiencia-publica-para-debater-a-ampliacao-da-area-do-estacionamento-do-shopping-park-lagos-em-cabo-frio-rj">
+                <a class="links-conflitos" href="https://www.mpf.mp.br/rj/sala-de-imprensa/noticias-rj/mpf-convoca-audiencia-publica-para-debater-a-ampliacao-da-area-do-estacionamento-do-shopping-park-lagos-em-cabo-frio-rj">
                     https://www.mpf.mp.br/rj/sala-de-imprensa/noticias-rj/mpf-convoca-audiencia-publica-para-debater-a-ampliacao-da-area-do-estacionamento-do-shopping-park-lagos-em-cabo-frio-rj</a>
                 <br><br>
-                <a class="links-conflitos"
-                    href="https://www.radiolitoral945.com.br/noticias/shopping-suspende-obras-de-expansao-do-estacionamento/">
+                <a class="links-conflitos" href="https://www.radiolitoral945.com.br/noticias/shopping-suspende-obras-de-expansao-do-estacionamento/">
                     https://www.radiolitoral945.com.br/noticias/shopping-suspende-obras-de-expansao-do-estacionamento/</a>
                 <br><br>
-                <a class="links-conflitos"
-                    href="https://www.mpf.mp.br/rj/sala-de-imprensa/noticias-rj/mpf-convoca-audiencia-publica-para-debater-a-ampliacao-da-area-do-estacionamento-do-shopping-park-lagos-em-cabo-frio-rj">
+                <a class="links-conflitos" href="https://www.mpf.mp.br/rj/sala-de-imprensa/noticias-rj/mpf-convoca-audiencia-publica-para-debater-a-ampliacao-da-area-do-estacionamento-do-shopping-park-lagos-em-cabo-frio-rj">
                     https://www.mpf.mp.br/rj/sala-de-imprensa/noticias-rj/mpf-convoca-audiencia-publica-para-debater-a-ampliacao-da-area-do-estacionamento-do-shopping-park-lagos-em-cabo-frio-rj</a>
                 <br><br>
-                <a class="links-conflitos"
-                    href="https://cabofrio.portaldacidade.com/noticias/cidade/audiencia-sobre-obras-no-estacionamento-do-shopping-acontecera-nesta-sexta-12-0004">
+                <a class="links-conflitos" href="https://cabofrio.portaldacidade.com/noticias/cidade/audiencia-sobre-obras-no-estacionamento-do-shopping-acontecera-nesta-sexta-12-0004">
                     https://cabofrio.portaldacidade.com/noticias/cidade/audiencia-sobre-obras-no-estacionamento-do-shopping-acontecera-nesta-sexta-12-0004</a>
                 <br><br>
-                <a class="links-conflitos"
-                    href="https://fontecerta.com/mpf-pede-explicacoes-sobre-ampliacao-do-estacionamento-do-shopping-park-lagos-em-cabo-frio/#:~:text=A%20Prefeitura%20de%20Cabo%20Frio%20informou%20por%20nota%20que%20%E2%80%9Ca,atrav%C3%A9s%20do%20processo%20N%C2%BA%2052.952%2FN">
+                <a class="links-conflitos" href="https://fontecerta.com/mpf-pede-explicacoes-sobre-ampliacao-do-estacionamento-do-shopping-park-lagos-em-cabo-frio/#:~:text=A%20Prefeitura%20de%20Cabo%20Frio%20informou%20por%20nota%20que%20%E2%80%9Ca,atrav%C3%A9s%20do%20processo%20N%C2%BA%2052.952%2FN">
                     https://fontecerta.com/mpf-pede-explicacoes-sobre-ampliacao-do-estacionamento-do-shopping-park-lagos-em-cabo-frio/#:~:text=A%20Prefeitura%20de%20Cabo%20Frio%20informou%20por%20nota%20que%20%E2%80%9Ca,atrav%C3%A9s%20do%20processo%20N%C2%BA%2052.952%2FN</a>
                 <br><br>
 
-                <a class="links-conflitos"
-                    href="https://cabofrio.rj.gov.br/bolsao-da-juju-na-praia-do-forte-recebe-cumprimento-de-compensacao-ambiental/">
+                <a class="links-conflitos" href="https://cabofrio.rj.gov.br/bolsao-da-juju-na-praia-do-forte-recebe-cumprimento-de-compensacao-ambiental/">
                     https://cabofrio.rj.gov.br/bolsao-da-juju-na-praia-do-forte-recebe-cumprimento-de-compensacao-ambiental/</a>
                 <br><br>
-                <a class="links-conflitos"
-                    href="https://jornaldesabado.net/bolsao-da-juju-na-praia-do-forte-em-cabo-frio-recebe-cumprimento-de-compensacao-ambiental/">
+                <a class="links-conflitos" href="https://jornaldesabado.net/bolsao-da-juju-na-praia-do-forte-em-cabo-frio-recebe-cumprimento-de-compensacao-ambiental/">
                     https://jornaldesabado.net/bolsao-da-juju-na-praia-do-forte-em-cabo-frio-recebe-cumprimento-de-compensacao-ambiental/</a>
 
 
@@ -159,7 +148,7 @@
             </p>
         </div>
 
-        
+
 
 
 

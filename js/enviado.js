@@ -21,8 +21,28 @@ iniciarPopUp.addEventListener('click', async (e) => {
 
 fecharPopUp.addEventListener('click', () => {
     exibirPopUp.style.display = 'none';
-    formContato.reset(); 
+    formContato.reset();
+
+    // Limpa apenas as miniaturas dentro do contêiner de pré-visualização
+    const thumbnails = previewImage.querySelectorAll('.thumbnail');
+    thumbnails.forEach(thumbnail => {
+        thumbnail.remove();
+    });
+
+    // Exibe o contêiner de pré-visualização vazio
+    document.getElementById('preview-container').style.display = '';
+
+    // Exibe os elementos de texto e a nuvem dentro do #upload-area
+    const uploadArea = document.getElementById('upload-area');
+    const textElements = uploadArea.querySelectorAll('p, span, .nuvem');
+    for (const textElement of textElements) {
+        textElement.style.display = '';
+    }
 });
+
+
+
+
 
 // SCRIPT DO PREVIEW DAS IMAGENS NO UPLOAD
 
@@ -76,4 +96,4 @@ function createThumbnail(imgLink) {
     thumbnail.appendChild(img);
 
     return thumbnail;
-}
+} 

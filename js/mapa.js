@@ -83,6 +83,15 @@ var violetIcon = new L.Icon({
 	shadowSize: [41, 41]
 });
 
+var yellowIcon = new L.Icon({
+	iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
+	shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+	iconSize: [25, 41],
+	iconAnchor: [12, 41],
+	popupAnchor: [1, -34],
+	shadowSize: [41, 41]
+});
+
 // Conflitos em Buzios
 var bz1 = L.marker([-22.74884753005497, -41.95635818360315], { icon: redIcon }).addTo(map);
 bz1.bindPopup("<b>O conflito entre o empreendimento imobiliário ARETÉ e a comunidade de remanescentes de quilombo de Baía Formosa.</b>").openPopup();
@@ -107,10 +116,22 @@ cf2.bindPopup("<b>A expansão do estacionamento do Shopping Park Lagos tem gerad
 var cf3 = L.marker([-22.73966606550855, -42.0641429968583], {icon: greenIcon}).addTo(map);
 cf3.bindPopup("<b>A invisibilidade da comunidade dos remanescentes do Quilombo Botafogo em Cabo Frio.</b>").openPopup();
 
+var cf4 = L.marker([-22.723155096516276, -42.03119096994731], {icon: greenIcon}).addTo(map);
+cf4.bindPopup("<b>Descarte irregular de resíduos sólidos de saúde na cidade de Cabo Frio.</b><br><a href='p/cf3.php'>Ver mais</a>").openPopup();
+
+var cf5 = L.marker([-22.85326445147439, -42.02963542158515], {icon: greenIcon}).addTo(map);
+cf5.bindPopup("<b>Descarte irregular de resíduos sólidos de saúde na cidade de Cabo Frio.</b><br><a href='p/cf3.php'>Ver mais</a>").openPopup();
+
+var cf6 = L.marker([-22.839108059406293, -41.99592116811484], {icon: greenIcon}).addTo(map);
+cf6.bindPopup("<b>Construções em áreas de impacto social e ecológico na Região dos Lagos.</b><br><a href='p/cf4.php'>Ver mais</a>").openPopup();
+
 // Conflitos em Arraial do Cabo
 
 var ac1 = L.marker([-22.97054597934171, -42.031247214308], {icon: orangeIcon}).addTo(map);
 ac1.bindPopup("<b>O conflito entre turismo e pesca na Reserva Extrativista de Arraial do Cabo.</b><br><a href='p/ac1.php'>Ver mais</a>").openPopup();
+
+var ac2 = L.marker([-22.976030737191937, -42.0307366454099], {icon: orangeIcon}).addTo(map);
+ac2.bindPopup("<b>Casas irregulares ameaçam Parque Estadual da Costa do Sol na Região dos Lagos.</b><br><a href='p/ac2.php'>Ver mais</a>").openPopup();
 
 // Conflitos em Araruama
 
@@ -120,19 +141,28 @@ ar1.bindPopup("<b>A urbanização da orla da laguna de Araruama em Araruama e se
 var ar2 = L.marker([-22.88280298731239, -42.1604148444337], {icon: violetIcon}).addTo(map);
 ar2.bindPopup("<b>A emissão de esgoto in natura na laguna de Araruama em diversos pontos.</b>").openPopup();
 
+// Conflitos em Saquarema
+
+var sq1 = L.marker([-22.935233677651183, -42.63193749333543], {icon: yellowIcon}).addTo(map);
+sq1.bindPopup("<b>Construções em áreas de impacto social e ecológico na Região dos Lagos.</b><br><a href='p/cf4.php'>Ver mais</a>").openPopup();
+
+
+
 // Controle dos Marcadores por Cidade
 
 var buzios = L.layerGroup([bz1, bz2]);
 var saopedro = L.layerGroup([sp1]);
-var cabofrio = L.layerGroup([cf1, cf2, cf3]);
-var arraial = L.layerGroup([ac1]);
+var cabofrio = L.layerGroup([cf1, cf2, cf3, cf4, cf5, cf6]);
+var arraial = L.layerGroup([ac1, ac2]);
 var araruama = L.layerGroup([ar1, ar2]);
+var saquarema = L.layerGroup([sq1]);
 var overlayMaps = {
   "Buzios": buzios,
   "São Pedro da Aldeia": saopedro,
   "Cabo Frio": cabofrio,
   "Arraial do Cabo": arraial,
-  "Araruama": araruama
+  "Araruama": araruama,
+  "Saquarema": saquarema
 };
 
 L.control.layers(baseLayers, overlayMaps).addTo(map);
@@ -143,6 +173,7 @@ map.addLayer(saopedro);
 map.addLayer(cabofrio);
 map.addLayer(arraial);
 map.addLayer(araruama);
+map.addLayer(saquarema);
 
 // Controle da visibilidade dos marcadores quando o grupo é adicionado ou removido
 
@@ -157,6 +188,8 @@ map.on('overlayadd', function (eventLayer) {
     map.addLayer(arraial);
   } else if (eventLayer.name === 'Araruama') {
     map.addLayer(araruama);
+  } else if (eventLayer.name === 'Saquarema') {
+  map.addLayer(saquarema);
   }
 });
 
@@ -171,5 +204,7 @@ map.on('overlayremove', function (eventLayer) {
     map.removeLayer(arraial);
   } else if (eventLayer.name === 'Araruama') {
     map.removeLayer(araruama);
+  } else if (eventLayer.name === 'Saquarema') {
+    map.removeLayer(saquarema);
   }
 });

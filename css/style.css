@@ -726,6 +726,7 @@ input[type="submit"] {
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
+  margin: 1%;
 }
 
 .links-conflitos {
