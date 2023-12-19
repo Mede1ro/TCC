@@ -35,7 +35,7 @@
 
   <main class="container-inicio">
     <div class="conteudo-inicio">
-      <h1>AAAAAAAAA <span>Região do Lagos</span></h1>
+      <h1>Mapa dos Conflitos Ambientais na <span>Região do Lagos</span></h1>
       <div id="map"></div>
 
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
