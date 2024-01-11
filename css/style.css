@@ -156,6 +156,7 @@ body::-webkit-scrollbar-track {
   flex-direction: column;
   padding-left: 70px;
   padding-right: 70px;
+  margin-bottom: 20%;
 }
 
 .conteudo-inicio h1 {
