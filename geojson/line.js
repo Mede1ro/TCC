@@ -1,0 +1,7 @@
+var lineJSON = {"type":"FeatureCollection","features":[{"type":"Feature","properties":{},"geometry":{"coordinates":[-42.084118033203936,-22.932856787152687],"type":"Point"}},{"type":"Feature","properties":{},"geometry":{"coordinates":[-42.06479029706546,-22.928205710123265],"type":"Point"}},{"type":"Feature","properties":{},"geometry":{"coordinates":[-42.085177941314925,-22.949851956934083],"type":"Point"}},{"type":"Feature","properties":{},"geometry":{"coordinates":[-42.054128868421,-22.956282005195973],"type":"Point"}},{"type":"Feature","properties":{},"geometry":{"coordinates":[-42.056996855074146,-22.94210104618972],"type":"Point"}},{"type":"Feature","properties":{},"geometry":{"coordinates":[[-42.49542230272769,-22.932989681391007],[-42.3397277709534,-22.871042414753063]],"type":"LineString"}}]}
+
+var pointJSON = {"type":"FeatureCollection","features":[{"type":"Feature","properties":{},"geometry":{"coordinates":[-42.084118033203936,-22.932856787152687],"type":"Point"}},{"type":"Feature","properties":{},"geometry":{"coordinates":[-42.06479029706546,-22.928205710123265],"type":"Point"}},{"type":"Feature","properties":{},"geometry":{"coordinates":[-42.085177941314925,-22.949851956934083],"type":"Point"}},{"type":"Feature","properties":{},"geometry":{"coordinates":[-42.054128868421,-22.956282005195973],"type":"Point"}},{"type":"Feature","properties":{},"geometry":{"coordinates":[-42.056996855074146,-22.94210104618972],"type":"Point"}}]}
+
+
+//L.geoJSON(lineJSON).addTo(map);
+//L.geoJSON(pointJSON).addTo(map);
